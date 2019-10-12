@@ -1,0 +1,32 @@
+name: backend
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.0
+  json_annotation: ^2.0.0
+  firebase_core: ^0.3.4
+  cloud_firestore: ^0.9.1
+  pedantic: ^1.8.0
+  shared:
+    path: ../shared
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  build_runner: ^1.0.0
+  json_serializable: ^2.0.0
+  mockito: 4.0.0
+  test: any
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true

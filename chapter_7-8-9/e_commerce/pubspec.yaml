@@ -1,0 +1,52 @@
+name: e_commerce
+description: A Flutter e_commerce project using blocs for state management.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  rxdart: 0.20.0
+  path_provider: ^0.4.1
+  image_picker: ^0.4.12+1
+  pedantic: ^1.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/apple-in-hand.jpg
+    - assets/images/apricots.jpg
+    - assets/images/asparagus.jpg
+    - assets/images/avocado-half.jpg
+    - assets/images/avocado-two-halves.jpg
+    - assets/images/blueberries-in-hand.jpg
+    - assets/images/blueberries-pile.jpg
+    - assets/images/broccoli-pieces.jpg
+    - assets/images/brussel-sprouts.jpg
+    - assets/images/cacao-beans.jpg
+    - assets/images/carrots.jpg
+    - assets/images/chesnuts.jpeg
+    - assets/images/chopped_veggies.jpg
+    - assets/images/cupcake.jpg
+    - assets/images/eggs.jpg
+    - assets/images/frozen-treat.jpg
+    - assets/images/fruit_stand.png
+    - assets/images/lettuce.jpg
+    - assets/images/lime.jpg
+    - assets/images/milkshake.jpg
+    - assets/images/milkshake-in-hand.jpg
+    - assets/images/nectarines.jpg
+    - assets/images/oranges.jpg
+    - assets/images/papaya.jpg
+    - assets/images/popcicle-in-hand.jpg
+    - assets/images/sliced-oranges.jpg
+    - assets/images/strawberries-in-hand.jpg
+    - assets/images/spoons-full-of-spices.jpg
+    - assets/images/walnuts.jpg

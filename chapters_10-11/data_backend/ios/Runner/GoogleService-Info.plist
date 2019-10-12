@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>813211804051-h68r3ldku2cfqonskqmmceqrddevprnj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.813211804051-h68r3ldku2cfqonskqmmceqrddevprnj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDyUaLZKbW5f98mlDSIiC2OJ_lcxM2nBWI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>813211804051</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.backend</string>
+	<key>PROJECT_ID</key>
+	<string>flutter-in-action-todo</string>
+	<key>STORAGE_BUCKET</key>
+	<string>flutter-in-action-todo.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:813211804051:ios:b2aeb3209abb47f6</string>
+	<key>DATABASE_URL</key>
+	<string>https://flutter-in-action-todo.firebaseio.com</string>
+</dict>
+</plist>

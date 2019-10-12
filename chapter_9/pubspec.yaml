@@ -1,0 +1,4 @@
+name: fia_cli_util
+
+dependencies:
+  args: ^1.5.1

@@ -1,0 +1,15 @@
+name: shared
+description: A starting point for Dart libraries or applications.
+
+environment:
+  sdk: '>=2.1.0 <3.0.0'
+
+dependencies:
+  path: ^1.4.1
+  json_annotation: ^2.0.0
+  pedantic: ^1.8.0
+
+dev_dependencies:
+  test: ^1.0.0
+  build_runner: ^1.0.0
+  json_serializable: ^2.0.0
