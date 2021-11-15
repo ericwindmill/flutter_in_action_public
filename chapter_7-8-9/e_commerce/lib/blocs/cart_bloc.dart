@@ -19,10 +19,10 @@ class CartBloc {
 
   // Outputs
   Stream<Map<String, int>> get cartItems => _cartItemStreamController.stream;
-  StreamController _cartItemStreamController = BehaviorSubject<Map<String, int>>(seedValue: {});
+  final StreamController _cartItemStreamController = BehaviorSubject<Map<String, int>>.seeded({});
 
+  final StreamController _cartItemCountStreamController = BehaviorSubject<int>.seeded(0);
   Stream<int> get cartItemCount => _cartItemCountStreamController.stream;
-  StreamController _cartItemCountStreamController = BehaviorSubject<int>(seedValue: 0);
 
   CartBloc(this._service) {
     // Listen to inputs

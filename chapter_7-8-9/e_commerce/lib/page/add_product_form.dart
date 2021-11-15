@@ -210,9 +210,11 @@ class _AddProductFormState extends State<AddProductForm> {
             foregroundColor: Colors.grey[300],
             child: Icon(Icons.photo_library),
             onPressed: () async {
-              File image = await ImagePicker.pickImage(source: ImageSource.gallery);
+              final _picker = ImagePicker();
+              final image = await _picker.pickImage(source: ImageSource.gallery);
+              // File image = await ImagePicker.pickImage(source: ImageSource.gallery);
               setState(() {
-                _selected = image;
+                _selected = File(image.path);
               });
             },
           ),

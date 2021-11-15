@@ -21,8 +21,7 @@ class UserBloc {
 
   // Outputs
   Stream<ECommerceUser> get user => _userStreamController.stream;
-  StreamController _userStreamController = BehaviorSubject<ECommerceUser>(
-      seedValue: ECommerceUser(name: "Eric Windmill", contact: "eric@ericwindmill.com"));
+  final StreamController _userStreamController = BehaviorSubject<ECommerceUser>.seeded(ECommerceUser(name: "Eric Windmill", contact: "eric@ericwindmill.com"));
 
   UserBloc(this._service) {
     updateUserInformationSink.stream.listen(_handleNewUserInformation);

@@ -51,7 +51,7 @@ class ProductDetailCard extends StatelessWidget {
                   Spacing.matGridUnit(scale: .5),
                 ),
                 child: Center(
-                  child: Text(product.title, style: Theme.of(context).primaryTextTheme.subhead),
+                  child: Text(product.title, style: Theme.of(context).primaryTextTheme.subtitle1),
                 ),
               ),
             ),
