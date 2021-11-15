@@ -55,14 +55,14 @@ class ProductDetailPageState extends State<ProductDetailPage> {
                           widget.product.title,
                           style: Theme.of(context)
                               .textTheme
-                              .display1
+                              .headline4
                               .copyWith(color: AppColors.displayTextColor),
                         ),
                         Text(
                           widget.product.category.toString(),
                           style: Theme.of(context)
                               .textTheme
-                              .subhead
+                              .subtitle1
                               .copyWith(fontWeight: FontWeight.bold),
                         ),
                       ],
@@ -71,7 +71,7 @@ class ProductDetailPageState extends State<ProductDetailPage> {
                       "\$ ${widget.product.cost} / lb",
                       style: Theme.of(context)
                           .textTheme
-                          .headline
+                          .headline5
                           .copyWith(color: AppColors.displayTextColor),
                     ),
                   ],
@@ -111,7 +111,7 @@ class ProductDetailPageState extends State<ProductDetailPage> {
                     ),
                     Text(
                       _quantity.toString(),
-                      style: Theme.of(context).primaryTextTheme.headline,
+                      style: Theme.of(context).primaryTextTheme.headline5,
                     ),
                     IconButton(
                       onPressed: () {

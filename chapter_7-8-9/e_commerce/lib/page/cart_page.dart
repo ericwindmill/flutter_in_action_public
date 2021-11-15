@@ -18,7 +18,7 @@ class CartPage extends StatelessWidget {
         CustomSliverHeader(
           headerText: "Cart Items",
         ),
-        StreamBuilder(
+        StreamBuilder<Map<String, int>>(
           stream: _bloc.cartItems,
           initialData: <String, int>{},
           builder: (BuildContext context, AsyncSnapshot<Map<String, int>> snapshot) {
@@ -56,7 +56,7 @@ class CartPage extends StatelessWidget {
                               "$_product removed from cart.",
                               style: Theme.of(context)
                                   .textTheme
-                                  .headline
+                                  .headline1
                                   .copyWith(color: AppColors.accentTextColor),
                             ),
                           ),
@@ -77,7 +77,7 @@ class CartPage extends StatelessWidget {
             child: Center(
               child: Text(
                 "Cart Total: 5.00",
-                style: Theme.of(context).textTheme.headline,
+                style: Theme.of(context).textTheme.headline5,
               ),
             ),
           ),

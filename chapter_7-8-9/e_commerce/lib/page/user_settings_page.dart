@@ -59,7 +59,7 @@ class UserSettingsPage extends StatelessWidget {
                                   "${_product.title} deleted.",
                                   style: Theme.of(context)
                                       .textTheme
-                                      .headline
+                                      .headline5
                                       .copyWith(color: AppColors.accentTextColor),
                                 ),
                               ),

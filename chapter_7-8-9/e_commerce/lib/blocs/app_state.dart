@@ -23,7 +23,7 @@ class AppStateContainer extends StatefulWidget {
   State<StatefulWidget> createState() => AppState();
 
   static AppState of(BuildContext context) {
-    return (context.inheritFromWidgetOfExactType(_AppStoreContainer) as _AppStoreContainer).appData;
+    return (context.dependOnInheritedWidgetOfExactType<_AppStoreContainer>()).appData;
   }
 }
 

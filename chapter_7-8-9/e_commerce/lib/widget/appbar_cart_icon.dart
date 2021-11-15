@@ -43,7 +43,7 @@ class AppBarCartIcon extends StatelessWidget {
 //                style:  TextStyle(fontSize: 8.0, color: Colors.white),
 //                textAlign: TextAlign.center,
 //                ),
-              child: StreamBuilder(
+              child: StreamBuilder<int>(
                 initialData: 0,
                 stream: _bloc.cartItemCount,
                 builder: (BuildContext context, AsyncSnapshot snapshot) {

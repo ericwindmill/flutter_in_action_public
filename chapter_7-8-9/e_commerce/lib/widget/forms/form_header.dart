@@ -16,7 +16,7 @@ class FormHeader extends StatelessWidget {
       children: <Widget>[
         Text(
           title,
-          style: Theme.of(context).textTheme.title.copyWith(fontWeight: FontWeight.w300),
+          style: Theme.of(context).textTheme.headline6.copyWith(fontWeight: FontWeight.w300),
         ),
         Divider(),
       ],

@@ -43,7 +43,7 @@ class AppMenuState extends State<AppMenu> with RouteAware {
     return Drawer(
       child: ListView(
         children: <Widget>[
-          StreamBuilder(
+          StreamBuilder<ECommerceUser>(
             initialData: ECommerceUser(name: "", contact: ""),
             stream: _bloc.user,
             builder: (BuildContext context, AsyncSnapshot<ECommerceUser> s) =>

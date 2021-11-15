@@ -15,11 +15,11 @@ class CatalogBloc {
   final CatalogService _service;
 
   // Output products
-  StreamController _productStreamController =
-      BehaviorSubject<List<Product>>(seedValue: populateCatalog().availableProducts);
+  final StreamController _productStreamController =
+      BehaviorSubject.seeded( populateCatalog().availableProducts);
   Stream<List<Product>> get allProducts => _productStreamController.stream;
 
-  List<StreamController<List<Product>>> _controllersByCategory = [];
+  final List<StreamController<List<Product>>> _controllersByCategory = [];
   List<Stream<List<Product>>> productStreamsByCategory = [];
 
   // Inputs

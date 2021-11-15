@@ -12,7 +12,7 @@ class FadeInSlideOutRoute<T> extends MaterialPageRoute<T> {
   @override
   Widget buildTransitions(BuildContext context, Animation<double> animation,
       Animation<double> secondaryAnimation, Widget child) {
-    if (settings.isInitialRoute) return child;
+    if (settings.name == '/') return child;
 
     if (animation.status == AnimationStatus.reverse) {
       return super.buildTransitions(context, animation, secondaryAnimation, child);

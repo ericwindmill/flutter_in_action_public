@@ -39,7 +39,7 @@ class _AddToCartBottomSheetState extends State<AddToCartBottomSheet> {
             padding: EdgeInsets.all(Spacing.matGridUnit()),
             child: Text(
               "Add item to Cart",
-              style: Theme.of(context).primaryTextTheme.display1,
+              style: Theme.of(context).primaryTextTheme.headline4,
             ),
           ),
           Padding(
@@ -57,7 +57,7 @@ class _AddToCartBottomSheetState extends State<AddToCartBottomSheet> {
                     }),
                 Text(
                   _quantity.toString(),
-                  style: Theme.of(context).primaryTextTheme.headline,
+                  style: Theme.of(context).primaryTextTheme.headline5,
                 ),
                 IconButton(
                   iconSize: 40.0,
